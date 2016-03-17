@@ -1,0 +1,18 @@
+{
+    "name": "socialiteproviders/darkscience",
+    "description": "DarkScience OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "authors": [{
+        "name": "xLink",
+        "email": "xLink@cybershade.org"
+    }],
+    "require": {
+        "php": ">=5.5.0",
+        "socialiteproviders/manager": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\Darkscience\\": "src/"
+        }
+    }
+}
